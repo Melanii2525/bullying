@@ -1,0 +1,154 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #81D8D0;
+}
+
+.n1{
+    background-color: #fff;
+    margin: 80px auto 0 auto;
+    width: 1180px;
+    box-shadow: rgba(100, 100, 111, 0,2) 0px 7px 29px 0px;
+    position: relative;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 0 5%;
+    height: 80px;
+    background-color: #6593F5;
+}
+nav .title{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+nav .links{
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .links li{
+    list-style: none;
+}
+nav .links a{
+    display: block;
+    padding: 1em;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.h1{
+    width: 100%;
+    height: 450px;
+    color: chocolate;
+    background-image: url(download.jfif);
+    background-position: 0 2000px;
+    background-size: cover;
+    border-bottom: 5px solid #4C516D;
+    border-top: 5px solid #4C516D;
+}
+
+.n1 .content-1{
+    padding: 20px;
+    padding-top: 5px;
+    width: 63%;
+    box-sizing: border-box;
+    float: left;
+}
+.n1 .content-1 .tanggal{
+    font-size: 12px;
+    margin-top: -20px;
+}
+.n1 .content-1 .tanggal a{
+    color: rgb(175, 83, 218);
+    text-decoration: none;
+}
+.n1 .content-1 p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.n1 .a1{
+    width: 35%;
+    padding: 15px;
+    float: right;
+    box-sizing: border-box;
+}
+.n1 .a1 #foto-profil{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 25px;
+}
+.n1 .a1 p{
+    font-size: 14px;
+    text-align: justify;
+}
+.a1 hr{
+    height: 3px;
+    border-width: 0;
+    color: sandybrown;
+    background-color: sandybrown;
+}
+
+.a1 #side-gambar{
+    box-sizing: border-box;
+    margin-bottom: -15px;
+    width: 100%;
+    height: auto;
+}
+.a1 #tgl-artikel{
+    font-size: 12px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+.a1 #tgl-artikel a{
+    color: rgb(175, 83, 218);
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #6593F5;
+    padding: 1px;
+    text-align: center;
+    color: white;
+}
+.footer p{
+    font-size: 11px;
+    font-style: italic;
+}
+.footer a{
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+}
+
+.cf::before,
+.cf::after{
+    content: " ";
+    display: table;
+}
+
+.cf::after{
+    clear: both;
+}
+.cf{
+    zoom: 1;
+}
